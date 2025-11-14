@@ -60,6 +60,8 @@ function resetScore(){
     guestScore = 0
     homeScoreEle.innerText = homeScore
     guestScoreEle.innerText = guestScore
+    homeScoreEle.style.border = null
+    guestScoreEle.style.border = null
 }
 
 // function time
