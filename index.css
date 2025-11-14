@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "CursedTimerUlil";
+  src: url(/CursedTimerUlil.ttf) format("truetype");
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b244a;
+  padding: 4rem;
+ }
+ 
+.container {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 80px;
+    padding: 0;
+ }
+ 
+ .score-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+ }
+ 
+ .board-title {
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eee;
+ }
+ 
+ .board-background {
+    align-items: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #080001;
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f94f6d;
+ }
+ 
+ .btn-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ }
+ 
+ .score-btn {
+  background-color: #1b244a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 9px;
+  border-radius: 5px;
+  border: solid 2px #9aabd8;
+  font-family: CursedTimerULiL;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9aabd8;
+ }
+ 
+ .reset-btn {
+   background-color: #1b244a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 9px;
+  border-radius: 5px;
+  border: solid 2px #9aabd8;
+  font-family: CursedTimerULiL;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9aabd8;
+ }
